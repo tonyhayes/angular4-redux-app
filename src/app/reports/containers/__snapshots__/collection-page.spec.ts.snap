@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collection Page should compile 1`] = `
+<analytics-collection-page
+  reports$={[Function Store]}
+  store={[Function Store]}
+>
+  
+      <mat-card
+    _ngcontent-c0=""
+    class="mat-card"
+  >
+    
+        
+    <mat-card-title
+      _ngcontent-c0=""
+      class="mat-card-title"
+    >
+      My Scheduled Reports
+    </mat-card-title>
+    
+      
+  </mat-card>
+  
+      <analytics-report-preview-list
+    _ngcontent-c0=""
+    _nghost-c2=""
+    ng-reflect-reports=""
+    ng-reflect-scheduled="true"
+  >
+    
+      
+    
+    
+    
+  </analytics-report-preview-list>
+    
+</analytics-collection-page>
+`;

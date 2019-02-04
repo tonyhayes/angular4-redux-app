@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View Report Page should compile 1`] = `
+<analytics-view-report-page
+  actionsSubscription={[Function Subscriber]}
+>
+  
+      <analytics-selected-report-page>
+    
+      
+    <analytics-report-detail
+      _nghost-c0=""
+    >
+      
+      
+      
+      
+  
+    
+    </analytics-report-detail>
+    
+    
+  </analytics-selected-report-page>
+    
+</analytics-view-report-page>
+`;

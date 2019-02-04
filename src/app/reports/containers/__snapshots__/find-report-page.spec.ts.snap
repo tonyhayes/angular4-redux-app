@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Find Report Page should compile 1`] = `
+<analytics-find-report-page
+  error$={[Function Store]}
+  loading$={[Function Store]}
+  reports$={[Function Store]}
+  searchQuery$={[Function Store]}
+  store={[Function Store]}
+>
+  
+      <mat-card
+    _ngcontent-c0=""
+    class="mat-card"
+  >
+    
+        
+    <mat-card-title
+      _ngcontent-c0=""
+      class="mat-card-title"
+    >
+      My Available Reports
+    </mat-card-title>
+    
+      
+  </mat-card>
+      <analytics-report-preview-list
+    _ngcontent-c0=""
+    _nghost-c2=""
+    ng-reflect-reports=""
+  >
+    
+      
+    
+    
+    
+  </analytics-report-preview-list>
+    
+</analytics-find-report-page>
+`;

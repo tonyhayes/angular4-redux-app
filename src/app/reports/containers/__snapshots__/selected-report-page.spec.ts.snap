@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selected Report Page should compile 1`] = `
+<analytics-selected-report-page
+  isSelectedReportInCollection$={[Function Store]}
+  report$={[Function Store]}
+  store={[Function Store]}
+>
+  
+      <analytics-report-detail
+    _nghost-c0=""
+    ng-reflect-in-collection="false"
+  >
+    
+      
+    
+    
+  
+    
+  </analytics-report-detail>
+    
+</analytics-selected-report-page>
+`;

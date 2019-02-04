@@ -1,0 +1,543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportsReducer LOAD should add a single report, if the report does not exist 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "1",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+  ],
+  "selectedReportId": null,
+}
+`;
+
+exports[`ReportsReducer LOAD should return the existing state if the report exists 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "1",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+  ],
+  "selectedReportId": null,
+}
+`;
+
+exports[`ReportsReducer SEARCH_COMPLETE & LOAD_SUCCESS should add all reports in the payload when none exist 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "1",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+    "222": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "222",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+  ],
+  "selectedReportId": null,
+}
+`;
+
+exports[`ReportsReducer SEARCH_COMPLETE & LOAD_SUCCESS should add all reports in the payload when none exist 2`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "1",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+    "222": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "222",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+  ],
+  "selectedReportId": null,
+}
+`;
+
+exports[`ReportsReducer SEARCH_COMPLETE & LOAD_SUCCESS should add only new reports when reports already exist 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "1",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+    "222": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "222",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+    "333": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "333",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+    "333",
+  ],
+  "selectedReportId": null,
+}
+`;
+
+exports[`ReportsReducer SEARCH_COMPLETE & LOAD_SUCCESS should add only new reports when reports already exist 2`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "1",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+    "222": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "222",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+    "333": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "333",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+    "333",
+  ],
+  "selectedReportId": null,
+}
+`;
+
+exports[`ReportsReducer SELECT should set the selected report id on the state 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "1",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+    "222": Object {
+      "blackoutTimesList": Array [
+        Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+      ],
+      "id": "222",
+      "reportInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report name",
+        "outputLocation": "/output/path/to/report",
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+      "scheduleInfo": Object {
+        "lastRun": "1513616909621",
+        "name": "report schedule name",
+        "nextRun": "1513616909621",
+        "outputLocation": "/output/path/to/report",
+        "repeats": Object {
+          "repeatTimeEnds": "1513616909621",
+          "repeatTimeStart": "1513616909621",
+          "repeats": "Daily",
+          "repeatsEndBy": "Never",
+        },
+        "sourceFile": "/path/to/report",
+        "status": "Normal",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+  ],
+  "selectedReportId": "1",
+}
+`;
+
+exports[`ReportsReducer Selectors getSelectedId should return the selected id 1`] = `"1"`;
+
+exports[`ReportsReducer undefined action should return the default state 1`] = `
+Object {
+  "entities": Object {},
+  "ids": Array [],
+  "selectedReportId": null,
+}
+`;
